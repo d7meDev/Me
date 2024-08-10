@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(129, 129, 233);
+}
+
+#container{
+    text-align: center;
+}
+
+
+#container h1{
+
+    font-size: clamp(2em,10vw,4em);
+}
+#container label{
+
+    font-size: clamp(1em,10vw,1.3em);
+}
+#container input{
+
+    font-size: clamp(1em,10vw,1.3em);
+}
+#container button{
+
+    font-size: clamp(1em,10vw,1.3em);
+    padding: 0px 15px;
+    cursor: pointer;
+}
+
+#container #diceValues{
+    margin: 10px;
+    text-align: center;
+    font-size: clamp(2em,10vw,3em);
+
+}
+#container #diceImages img{
+    margin: 10px;
+   
+
+}
